@@ -1,0 +1,30 @@
+import java.util.Scanner;  // Import Scanner class for user input
+
+class FactorialCalculator2 {  // Class definition
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);  // Create a Scanner object for user input
+
+        // Prompt the user for input
+        System.out.print("Enter a positive integer: ");
+        int number = input.nextInt();  // Read the number from user
+
+        // Check if the number is a positive integer
+        if (number < 0) {
+            System.out.println("Factorial is not defined for negative numbers.");
+        } else {
+            long factorial = 1;  // Variable to store the factorial result
+            int temp = number;  // Store the original number for display
+
+            // Compute factorial using while loop
+            for (int i=1;number>0;i++) {
+                factorial *= number;  // Multiply the current number to factorial
+                number--;  // Decrement the number
+            }
+
+            // Display the result
+            System.out.println("The factorial of " + temp + " is: " + factorial);
+        }
+
+        input.close();  // Close the Scanner object to free system resources
+    }
+}
