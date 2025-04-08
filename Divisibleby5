@@ -1,0 +1,16 @@
+import java.util.Scanner;  // Import Scanner class for user input
+
+class Divisibleby5 {  // Class definition
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);  // Create a Scanner object for user input
+
+        
+        System.out.print("Enter number: ");
+        double number = input.nextDouble();  
+
+        
+        System.out.println("Is the number "+number+" divisible by 5? "+(number%5==0));
+
+        input.close();  // Close the Scanner object to free system resources
+    }
+}
