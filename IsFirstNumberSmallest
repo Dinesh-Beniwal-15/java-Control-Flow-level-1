@@ -1,0 +1,20 @@
+import java.util.Scanner;  // Import Scanner class for user input
+
+class IsFirstNumberSmallest {  // Updated class name to reflect the logic
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);  // Create a Scanner object for user input
+
+        // Prompt the user to enter three numbers
+        System.out.print("Enter number1: ");
+        int number1 = input.nextInt();  // Read first number
+        System.out.print("Enter number2: ");
+        int number2 = input.nextInt();  // Read second number
+        System.out.print("Enter number3: ");
+        int number3 = input.nextInt();  // Read third number
+        
+        // Check if the first number is the smallest among the three
+        System.out.println("Is the first number the smallest? " + ((number1 < number2) && (number1 < number3)));
+
+        input.close();  // Close the Scanner object to free system resources
+    }
+}
