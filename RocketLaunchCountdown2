@@ -1,0 +1,21 @@
+import java.util.Scanner;  // Import Scanner class for user input
+
+class RocketLaunchCountdown2 {  // Class definition
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);  // Create Scanner object for user input
+
+        // Prompt the user to enter the starting countdown number
+        System.out.print("Enter the countdown start value: ");
+        int counter = input.nextInt();  // Read user input
+        
+        // Countdown using a for-loop
+        for (int i = counter; i >= 1; i--) {  // Loop from counter down to 1
+            System.out.println(i);  // Print current countdown value
+        }
+
+        // Print liftoff message
+        System.out.println("Liftoff!");
+
+        input.close();  // Close the Scanner object to free system resources
+    }
+}
