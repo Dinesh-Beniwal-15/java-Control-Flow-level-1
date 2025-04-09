@@ -1,0 +1,21 @@
+import java.util.Scanner;  // Import Scanner class for user input
+
+class NaturalNumberSum {  // Class definition
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);  // Create a Scanner object for user input
+
+        // Prompt the user to enter a number
+        System.out.print("Enter a number: ");
+        int number = input.nextInt();  // Read the number
+        
+        // Check if the number is a natural number (0 or positive integer)
+        if (number >= 0) {
+            int sum = number * (number + 1) / 2;  // Formula for sum of first n natural numbers
+            System.out.println("The sum of " + number + " natural numbers is " + sum);
+        } else {
+            System.out.println("The number " + number + " is not a natural number");
+        }
+
+        input.close();  // Close the Scanner object to free system resources
+    }
+}
