@@ -8,7 +8,7 @@ class Divisibleby5 {  // Class definition
         System.out.print("Enter number: ");
         double number = input.nextDouble();  
 
-        
+         
         System.out.println("Is the number "+number+" divisible by 5? "+(number%5==0));
 
         input.close();  // Close the Scanner object to free system resources
