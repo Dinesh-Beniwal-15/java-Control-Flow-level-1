@@ -8,7 +8,7 @@ class FactorialCalculator {  // Class definition
         System.out.print("Enter a positive integer: ");
         int number = input.nextInt();  // Read the number from user
 
-        // Check if the number is a positive integer   
+        // Check if the number is a positive integer    
         if (number < 0) {
             System.out.println("Factorial is not defined for negative numbers.");
         } else {
