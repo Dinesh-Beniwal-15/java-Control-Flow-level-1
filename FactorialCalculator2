@@ -10,7 +10,7 @@ class FactorialCalculator2 {  // Class definition
  
         // Check if the number is a positive integer 
         if (number < 0) { 
-            System.out.println("Factorial is not defined for negative numbers.");
+            System.out.println("Factorial is not defined for negative numbers."); 
         } else {
             long factorial = 1;  // Variable to store the factorial result
             int temp = number;  // Store the original number for display
