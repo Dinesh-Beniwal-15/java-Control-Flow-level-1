@@ -11,7 +11,7 @@ class IsFirstNumberSmallest {  // Updated class name to reflect the logic
         int number2 = input.nextInt();  // Read second number
         System.out.print("Enter number3: ");
         int number3 = input.nextInt();  // Read third number
-        
+         
         // Check if the first number is the smallest among the three
         System.out.println("Is the first number the smallest? " + ((number1 < number2) && (number1 < number3)));
 
