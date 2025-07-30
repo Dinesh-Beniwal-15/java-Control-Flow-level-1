@@ -15,7 +15,7 @@ class IsFirstNumberSmallest {  // Updated class name to reflect the logic
         // Check if the first number is the smallest among the three
         System.out.println("Is the first number the smallest? " + ((number1 < number2) && (number1 < number3)));
  
-        input.close();  // Close the Scanner object to free system resources
+        input.close();  // Close the Scanner object to free system resources 
     }
 }
  
