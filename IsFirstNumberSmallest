@@ -18,3 +18,4 @@ class IsFirstNumberSmallest {  // Updated class name to reflect the logic
         input.close();  // Close the Scanner object to free system resources
     }
 }
+ 
