@@ -9,7 +9,7 @@ class LargestNumberCheck {  // Class definition
         int number1 = input.nextInt();  // Read first number 
         System.out.print("Enter number2: ");
         int number2 = input.nextInt();  // Read second number 
-        System.out.print("Enter number3: ");
+        System.out.print("Enter number3: "); 
         int number3 = input.nextInt();  // Read third number
         
         // Check and print if each number is the largest
