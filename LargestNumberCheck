@@ -5,7 +5,7 @@ class LargestNumberCheck {  // Class definition
         Scanner input = new Scanner(System.in);  // Create a Scanner object for user input
 
         // Prompt the user to enter three numbers
-        System.out.print("Enter number1: ");
+        System.out.print("Enter number1: "); 
         int number1 = input.nextInt();  // Read first number 
         System.out.print("Enter number2: "); 
         int number2 = input.nextInt();  // Read second number   
