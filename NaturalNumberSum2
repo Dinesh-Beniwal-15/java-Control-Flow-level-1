@@ -6,7 +6,7 @@ class NaturalNumberSum2 {  // Class definition
 
         // Prompt the user to enter a number
         System.out.print("Enter a natural number: ");
-        int number = input.nextInt();  // Read the number from user  
+        int number = input.nextInt();  // Read the number from user   
         
         // Check if the number is a natural number (positive integer) 
         if (number > 0) {
