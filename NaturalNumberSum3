@@ -12,7 +12,7 @@ class NaturalNumberSum3{  // Class definition
         if (number > 0) {
             int sum = 0;  // Variable to store the sum of natural numbers
 
-            // Loop to calculate the sum of natural numbers
+            // Loop to calculate the sum of natural numbers 
             int temp = number;  // Store original number for output formatting
             for(int i=number;i!=0;i--) {  
                 sum += i;  // Add current number to sum
