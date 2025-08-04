@@ -8,7 +8,7 @@ class NumberCheck {  // Class definition
         System.out.print("Enter a number: ");
         int number = input.nextInt();  // Read number input
          
-        // Check if the number is positive, negative, or zero   
+        // Check if the number is positive, negative, or zero    
         if (number > 0) {
             System.out.println("The number is positive.");
         } else if (number < 0) {
