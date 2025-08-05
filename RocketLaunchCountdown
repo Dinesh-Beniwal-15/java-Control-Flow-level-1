@@ -14,7 +14,7 @@ class RocketLaunchCountdown {  // Class definition
             counter--;  // Decrement the counter
         }
 
-        // Print liftoff message
+        // Print liftoff message 
         System.out.println("Liftoff!");
 
         input.close();  // Close the Scanner object to free system resources
