@@ -8,7 +8,7 @@ class RocketLaunchCountdown2 {  // Class definition
         System.out.print("Enter the countdown start value: ");
         int counter = input.nextInt();  // Read user input
         
-        // Countdown using a for-loop
+        // Countdown using a for-loop 
         for (int i = counter; i >= 1; i--) {  // Loop from counter down to 1
             System.out.println(i);  // Print current countdown value 
         }
