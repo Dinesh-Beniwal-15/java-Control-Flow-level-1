@@ -16,6 +16,6 @@ class RocketLaunchCountdown2 {  // Class definition
         // Print liftoff message 
         System.out.println("Liftoff!");
 
-        input.close();  // Close the Scanner object to free system resources
+        input.close();  // Close the Scanner object to free system resources 
     }
 }
