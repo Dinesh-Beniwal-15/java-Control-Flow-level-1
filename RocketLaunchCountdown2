@@ -10,7 +10,7 @@ class RocketLaunchCountdown2 {  // Class definition
         
         // Countdown using a for-loop
         for (int i = counter; i >= 1; i--) {  // Loop from counter down to 1
-            System.out.println(i);  // Print current countdown value
+            System.out.println(i);  // Print current countdown value 
         }
 
         // Print liftoff message 
