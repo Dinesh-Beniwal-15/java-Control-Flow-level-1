@@ -8,7 +8,7 @@ class SpringSeason {  // Class definition
         System.out.print("Enter month (1-12): ");
         int month = input.nextInt();  // Read month input
         System.out.print("Enter day: ");
-        int day = input.nextInt();  // Read day input
+        int day = input.nextInt();  // Read day input 
 
         // Check if the date falls within the Spring Season (March 20 - June 20)
         boolean isSpring = (month == 3 && day >= 20) || 
