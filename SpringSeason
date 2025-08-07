@@ -12,7 +12,7 @@ class SpringSeason {  // Class definition
 
         // Check if the date falls within the Spring Season (March 20 - June 20)
         boolean isSpring = (month == 3 && day >= 20) || 
-                           (month == 4) || 
+                           (month == 4) ||  
                            (month == 5) ||   
                            (month == 6 && day <= 20);
 
