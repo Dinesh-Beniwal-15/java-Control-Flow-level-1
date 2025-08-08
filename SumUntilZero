@@ -9,7 +9,7 @@ class SumUntilZero {  // Class definition
 
         // Prompt the user to enter numbers
         System.out.print("Enter a number (0 to stop): ");
-        number = input.nextDouble();  // Read first number
+        number = input.nextDouble();  // Read first number 
         
         // Keep adding numbers until the user enters 0 
         while (number != 0) {  
