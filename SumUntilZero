@@ -13,7 +13,7 @@ class SumUntilZero {  // Class definition
         
         // Keep adding numbers until the user enters 0  
         while (number != 0) {  
-            total += number;  // Add number to total
+            total += number;  // Add number to total 
             System.out.print("Enter a number (0 to stop): ");
             number = input.nextDouble();  // Read next number
         }
