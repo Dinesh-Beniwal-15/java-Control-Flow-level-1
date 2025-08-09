@@ -18,3 +18,4 @@ class VotingEligibility {  // Class definition
         input.close();  // Close the Scanner object to free system resources
     }
 }
+ 
